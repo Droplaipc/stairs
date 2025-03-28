@@ -1,2 +1,19 @@
-.venv
-.idea
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyd
+*.pyo
+*.so
+*.egg-info/
+*.egg
+.Python
+venv/
+env/
+.venv/
+
+# IDE (PyCharm, VS Code)
+.idea/
+.vscode/
+*.swp
+*.swo
