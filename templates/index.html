@@ -5,7 +5,11 @@
 {% endblock %}
 
 {% block body %}
+    <h1>Escaleras</h1>
     <div class="body">
-        <h1>Escaleras</h1>
+        <form action="/" method="POST">
+            <label for="number" id="textLableSteps">Ingrese el número de pasos</label>
+            <input type="number" id="number" name="steps">
+        </form>
     </div>
 {% endblock %}
